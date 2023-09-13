@@ -149,10 +149,11 @@ ul {
   color: #fff;
   border: none;
   text-transform: uppercase;
-  right: 10px;
-  bottom: 60px;
-  font-size: 18px;
+  left: 30px;
+  bottom: 50px;
+  font-size: 22px;
   padding: 12px 20px;
+  font-weight: bold;
 }
 /* bootcamp-section */
 .bootcamp-section {
@@ -753,13 +754,16 @@ ul {
     padding: 0px 0px 40px;
   }
   .banner-section .bg-mobile a {
-    font-size: 14px;
-    padding: 10px 20px;
-    line-height: 16px;
-    right: 10px;
-    bottom: 50px;
+    font-size: 20px;
+    padding: 0;
+    left: 20px;
+    bottom: 20px;
+    width: 145px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
   .subscribe-dec p span {
     margin-left: 0px;
     margin-right: 0px;
@@ -965,7 +969,7 @@ ul {
     padding: 15px 30px;
     margin-top: 0px;
   }
-  .annual-membership .annual-membership-inner .membership-btn a{
+  .annual-membership .annual-membership-inner .membership-btn a {
     font-size: 24px;
     padding: 15px 30px;
     margin-top: 20px;
@@ -986,5 +990,10 @@ ul {
   }
   .sortable-wrap .bootcamp-start h3 {
     font-size: 18px;
+  }
+  .banner-section .bg-mobile a {
+    font-size: 15px;
+    width: 120px;
+    height: 36px;
   }
 }
