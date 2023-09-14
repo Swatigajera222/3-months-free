@@ -286,6 +286,7 @@ ul {
 .sortable-wrap {
   background-color: #fe018a;
   padding: 70px 0px;
+  text-align: center;
 }
 .sortable-wrap .bootcamp-start h3 {
   color: #fff;
@@ -298,7 +299,7 @@ ul {
 }
 .sortable-wrap .bootcamp-start h1 {
   color: #fff;
-  font-size: 80px;
+  font-size: 100px;
   font-weight: bold;
   font-family: "Inter-Bold";
   text-transform: capitalize;
@@ -326,7 +327,7 @@ ul {
 }
 
 .sortable-wrap .price-btn {
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
 }
 .sortable-wrap .price-btn a {
