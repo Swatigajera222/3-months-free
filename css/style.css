@@ -307,11 +307,14 @@ ul {
   position: relative;
   display: inline-block;
 }
-.sortable-wrap .bootcamp-start h1 span {
+.sortable-wrap .bootcamp-start h1 .free-img {
   position: absolute;
   width: 190px;
   top: -30px;
   right: -210px;
+}
+.sortable-wrap .bootcamp-start h1 .free-text {
+  display: none;
 }
 .sortable-wrap .bootcamp-start p {
   color: #fff;
@@ -338,6 +341,10 @@ ul {
 }
 .sortable-wrap .price-btn a:hover {
   background-color: #14b327;
+}
+.mobile-change-view {
+  display: flex;
+  flex-direction: column;
 }
 /* video-area */
 .video-area {
@@ -527,7 +534,7 @@ ul {
   .sortable-wrap .bootcamp-start h1 {
     font-size: 60px;
   }
-  .sortable-wrap .bootcamp-start h1 span {
+  .sortable-wrap .bootcamp-start h1 .free-img {
     position: absolute;
     width: 150px;
     right: -170px;
@@ -651,6 +658,9 @@ ul {
   .banner-section .bg-mobile {
     display: block;
   }
+  .mobile-change-view {
+    flex-direction: column-reverse;
+  }
   .testimonials-box p {
     font-size: 20px;
   }
@@ -715,8 +725,11 @@ ul {
   .story-section .stroy-wrap {
     border: none;
   }
-  .sortable-wrap .bootcamp-start .bootcamp-inner {
-    text-align: start;
+  .sortable-wrap .bootcamp-start h1 .free-img {
+    display: none;
+  }
+  .sortable-wrap .bootcamp-start h1 .free-text {
+    display: revert;
   }
   .subscribe-dec h1 {
     font-size: 50px;
@@ -787,7 +800,7 @@ ul {
   .sortable-wrap .price-btn a {
     font-size: 30px;
     padding: 15px 30px;
-    margin-top: 10px;
+    margin-top: 0px;
   }
 }
 @media only screen and (max-width: 525px) {
@@ -842,12 +855,6 @@ ul {
   }
   .sortable-wrap .bootcamp-start h1 {
     font-size: 45px;
-  }
-  .sortable-wrap .bootcamp-start h1 span {
-    position: absolute;
-    width: 120px;
-    right: -130px;
-    top: -25px;
   }
   .sortable-wrap .bootcamp-start p {
     font-size: 20px;
@@ -938,10 +945,6 @@ ul {
   .sortable-wrap .bootcamp-start h1 {
     font-size: 36px;
   }
-  .sortable-wrap .bootcamp-start h1 span {
-    width: 100px;
-    right: -110px;
-  }
   .annual-membership .annual-membership-inner h2 {
     font-size: 36px;
   }
@@ -955,11 +958,6 @@ ul {
   }
   .sortable-wrap .bootcamp-start h1 {
     font-size: 36px;
-  }
-  .sortable-wrap .bootcamp-start h1 span {
-    width: 80px;
-    right: -90px;
-    top: -13px;
   }
   .sortable-wrap .bootcamp-start p {
     font-size: 16px;
