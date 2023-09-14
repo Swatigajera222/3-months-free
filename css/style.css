@@ -313,9 +313,9 @@ ul {
   top: -30px;
   right: -210px;
 }
-.sortable-wrap .bootcamp-start h1 .free-text {
-  display: none;
-}
+/* .sortable-wrap .bootcamp-start h1 .free-text {
+  display: block;
+} */
 .sortable-wrap .bootcamp-start p {
   color: #fff;
   font-size: 32px;
